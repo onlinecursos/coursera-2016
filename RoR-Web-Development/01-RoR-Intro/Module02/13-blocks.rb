@@ -7,6 +7,13 @@
   end
 end
 # => 1
+puts ""
+    
+2.times do |index|
+	puts index
+end
+puts ""
+
 
 2.times { |index| puts index if index > 0 }
 # => 1

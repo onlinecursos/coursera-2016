@@ -1,9 +1,9 @@
-if /sera/ == "coursera"
-  puts "Tripe Equals"
+if /sera/ === "coursera"
+  puts "Triple Equals"
 end
-# => Tripe Equals
+# => Triple Equals
 
-if "coursera" == "coursera"
+if "coursera" === "coursera"
  puts "also works"
 end
 # => also works

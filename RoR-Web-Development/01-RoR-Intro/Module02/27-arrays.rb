@@ -1,5 +1,8 @@
 het_arr = [1, "two", :three] # heterogeneous types
+puts het_arr
+puts""
 puts het_arr[1] # => two (array indices start at 0)
+puts ""
 
 arr_words = %w{ what a great day today! }
 puts arr_words[-2] # => day 

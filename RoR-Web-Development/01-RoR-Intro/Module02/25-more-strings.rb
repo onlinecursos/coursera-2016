@@ -8,6 +8,9 @@ puts my_name # => Kim
 cur_weather = %Q{It's a hot day outside 
 		 Grab your umbrellas...}
 cur_weather .lines do |line|
+  puts ""
+  puts "#{line.strip}"
+  puts ""
   line.sub! 'hot', 'rainy' # substitute 'hot' with 'rainy'
   puts "#{line.strip}"
 end
