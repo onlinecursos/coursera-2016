@@ -1,0 +1,3 @@
+Semana 1
+Introduction to Active Record
+In this module, we will exploring the database-incteraction poprtion of Rails. We will...
