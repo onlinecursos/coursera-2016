@@ -1,0 +1,6 @@
+h2 {
+	font-weight: bold;
+}
+h2 ~ p {
+	background-color: yellow;
+}

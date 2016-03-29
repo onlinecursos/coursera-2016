@@ -1,0 +1,19 @@
+h1 {
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 150%;
+}
+.intro {
+	color: green;
+}
+.tagline {
+	background-color: blue;
+	font-size: 150%;
+	font-style: oblique;
+	color: red;
+}
+.intro {
+	color: green;
+}
+#intro {
+	font-size: 120%;
+}

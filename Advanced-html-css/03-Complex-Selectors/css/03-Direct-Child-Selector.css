@@ -1,0 +1,13 @@
+h2 {
+	font-size: 120%;
+	font-family: Verdana:;
+}
+p {
+	font-family: Verdana;
+	font-size: 80%;
+}
+article > p {
+	font-family: Arial;
+	font-style: oblique;
+	background-color: blue;
+}

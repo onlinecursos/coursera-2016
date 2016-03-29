@@ -3,7 +3,7 @@ Together-2
  */
  body{
 	background:#B3B3B3;
-	margin:2%;
+	margin:4%;
 	font-size: 150%;
 
 }
@@ -30,7 +30,7 @@ h2{
 }
 
 section{
-	width:30%;
+	width:31%;
 	margin-right: 2%;
 	display:inline-block;
 	float:left;
@@ -47,11 +47,11 @@ details{
 footer{
 	background: #00b7ea;
 	height:100px;
-	clear: both;
+	clear: both; /* Para que nada "flote" a los lados de "footer" */
 }
 
 img{
-	width: 75px;
+	width: 125px;
 }
 
 

@@ -1,0 +1,5 @@
+a[href^="https://"] {
+	color: #ff77ff;
+	text-decoration: none;
+	font-size: 120%;
+}

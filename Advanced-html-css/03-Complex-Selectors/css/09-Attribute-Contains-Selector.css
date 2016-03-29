@@ -1,0 +1,5 @@
+a[href*="login"] {
+	color: #ffdd77;
+	text-decoration: none;
+	font-size: 120%;
+}

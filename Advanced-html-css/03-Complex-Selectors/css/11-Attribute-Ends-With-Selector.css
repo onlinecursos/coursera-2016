@@ -1,0 +1,11 @@
+a[href$=".pdf"] {
+	color: #ff77ff;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+a[href$=".ods"] {
+	color: #77ffff;
+	text-decoration: none;
+	font-size: 120%;
+}

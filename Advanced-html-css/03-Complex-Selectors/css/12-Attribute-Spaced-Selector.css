@@ -1,0 +1,6 @@
+a[rel~="tag"] {
+	color: #ff3355;
+	text-decoration: none;
+	font-size: 120%;
+}
+
