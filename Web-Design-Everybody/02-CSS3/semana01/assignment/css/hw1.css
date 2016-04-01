@@ -1,5 +1,9 @@
 header {
 	background-color: #FFFFFF;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%);
 	background-image: url(../images/flywheel.jpg);
 	padding: 1%;
 }
@@ -36,13 +40,23 @@ h2 {
 	font-variant: small-caps;
 }
 
-aside {
-	background-color: green;
+main {
+	display: inline-block;
 }
+
+aside {
+	display: block;
+	background-color: green;
+	border: 1%;
+	width: 11%;
+	height: 257px;
+}
+
 section {
 	background-color: #FFFF00;
-	display: inline-block;
+	display: block; 
 	float: right;
+	width: 89%
 }
 
 a {
@@ -51,10 +65,11 @@ a {
 	color: #00FF00;
 }
 .left {
-	display: inline-block;
 	margin: 0 auto;
+	float: left;
 }
 img{
+	display: block;
 	border: 1px solid blue;
-	width: 10%;
+	width: 90%;
 }
