@@ -1,0 +1,5 @@
+li:nth-child(3n+2) {
+	font-family: verdana, arial, comic;
+	font-size: 130%;
+	color: #BBFF00;
+}

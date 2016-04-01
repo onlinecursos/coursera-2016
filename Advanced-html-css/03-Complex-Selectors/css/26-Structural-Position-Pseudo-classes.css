@@ -1,0 +1,13 @@
+p:nth-last-of-type(2n+1) {
+	font-family: verdana, Arial, Comic;
+	font-size: 115%;
+	color: #DDFF00;
+}
+
+h1 {
+	color: #440044;
+}
+
+h2 {
+	color: #DD00DD;
+}

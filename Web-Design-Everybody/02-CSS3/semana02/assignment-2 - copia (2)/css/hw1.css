@@ -1,0 +1,97 @@
+/*  ---------------------------------------------------------------------------------------
+    hw1.css Version 2 
+
+    Author : WWST 29-march-2016
+    ---------------------------------------------------------------------------------------
+*/
+
+/*  set the body style */
+body{
+    padding:5px;
+    margin: 4px 2px 2px 4px;
+    font-size: x-large;
+}
+
+
+/*  set the header section background color and image*/
+header{
+    background-color: #0A90FF;
+    background-image: url(../images/flywheel.jpg);
+}
+
+/*  make headings 1 and 2 uppercase*/
+h1, h2{
+	color: #FFFFFF;
+    text-transform:uppercase;
+}
+
+/*  set heading 1 forecolor to white and align in the center */
+h1{
+    text-align:center;
+    font-size:xx-large;
+}
+
+/*  set heading 2 forecolor to some other color*/
+h2{
+    color: #12469D;
+}
+
+/*  set the navigation section links 
+    set forecolor, backcolor 
+    align text in the center
+    do not underline the link
+    set a border and color
+    set the space between border and text (padding)
+*/
+nav > a{
+    background-color: #F2F2F2;
+    color: #0A90FF;
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+}
+
+/*  set the section backgroundcoloring*/
+section{
+	 background-color: #F2F2F2;
+}
+
+/*  set the active style*/
+.active {
+    background: #0A90FF;
+    color: #FFFFFF;
+}
+
+/*  set the style for the left panel*/
+.left {
+    background-color: #76804C;
+    color: #12469D;
+    display:inline;
+    float:left;
+    margin:0px;
+}
+
+/*  set the style for images on the left panel*/
+.left img {
+    position: center;
+    border-color: #0A90FF;
+    border-style:solid;
+    border-width: 3px;
+    width: 200px;
+    height: 150px;
+    margin: 50px 10px 10px 10px;
+    display: block;
+}
+
+/*  set the style for the right panel*/
+.right {
+    background-color: #F2F2F2;
+    color: #0A90FF;
+    display: inline;
+    margin:10px;
+}
+

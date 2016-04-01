@@ -1,0 +1,13 @@
+p:nth-of-type(3n) {
+	font-family: verdana, arial, comic;
+	font-size: 110%;
+	color: #CCFF00;
+}
+
+h1 {
+	color: #000044;
+}
+
+h2 {
+	color: #00DDDD;
+}

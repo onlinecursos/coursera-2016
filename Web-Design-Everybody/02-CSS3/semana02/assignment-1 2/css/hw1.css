@@ -1,0 +1,78 @@
+/* 
+My first attempt
+Watch this on: http://ramiro.com.mx/cuceaphp/index.html
+Tested on a PC with Windows 10 and:
+Firefox 45.0.1
+Google Chrome 49.0.2623.110 m*/
+
+body {
+	padding: 1% 1% 0% 1%;
+	margin: 1% 1% 0% 1%;
+}
+
+header {
+	background-color: #00FFFF;
+	background: -moz-linear-gradient(top, #00FFFF 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#00FFFF 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#00FFFF 0%, #00b7ea 100%);
+	background: linear-gradient(#00FFFF 0%, #00b7ea 100%);
+	background-image: url(../images/flywheel.jpg);
+	padding: 1%;
+}
+
+nav a {
+	display: inline-block;
+	margin: 1% 3%;
+	border-radius: 5%;
+	text-decoration: none;
+	padding: 1% 5% 1% 5%;
+	background: #FFFFFF;
+	opacity: 0.5;
+	font-weight: normal;
+	color: #000000;
+}
+
+.active {
+	color: #000000;
+	background: #FFFFFF;
+	opacity: 1;
+}
+
+section {
+	float: right;
+	width: 78%;
+	padding: 1%;
+}
+
+.left {
+	display: inline-block;
+	margin: 0 auto;
+	background-color: #808000;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 1%;
+	width: 18%;
+}
+
+img{
+	border: 1px solid blue;
+	width: 90%;
+	margin: 8% 4%;
+}
+
+h1{
+	color: #FFFFFF;
+	font-family: Verdana, Helvetica, Arial;
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 110%
+}
+
+h2 {
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 140%
+}
+
+p {
+	font-size: 120%
+}

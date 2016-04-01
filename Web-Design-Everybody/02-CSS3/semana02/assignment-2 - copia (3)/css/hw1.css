@@ -1,0 +1,59 @@
+/* This is the CSS3 code of Metodi Tzanov */
+
+body {padding: 1%;
+      margin: 1%;
+}
+
+header {background-image: url("../images/flywheel.img");
+        background-color:#B2B2B2;
+        padding:2px;
+        text-align:center;
+}
+h1 {text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+h2 {color:#000000;
+    text-transform: uppercase;
+}
+section {display: inline-block;
+}
+a {text-align:center;
+   color:#FFFFFF;  
+}
+nav a{display:inline-block;
+      background-color:#99ccff;
+      float:;
+      color:#000000;
+      margin-left:5%;
+      margin-bottom:1%;
+      border-radius:2px;
+      text-decoration:none;
+      padding:1%;
+}
+ nav a:hover {
+  background-color: #ffffff;}
+.active {background-color:#ffffff;
+}
+img{display:inline-block;
+    width:70%;
+    border-style:solid;
+    border-color:#000000;
+    border-size:1%;
+    margin-top:20%;
+    alt:hide;
+ }
+.right {display:inline-
+  block; 
+  float:right;
+  width:80%;
+
+}
+.left {
+  display: inline-block;
+  float: left;
+  width: 17%;
+  background-color: #99ccff;
+  text-align: center; 
+  
+}

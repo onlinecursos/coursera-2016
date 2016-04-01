@@ -1,0 +1,81 @@
+
+body {
+
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
+}
+
+header {
+
+    background-color:#00FFFF;
+    background: url('../images/flywheel.jpg');      
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+
+header h1{
+    color: #FFFFFF;
+}
+nav {
+     
+     display: inline-block;
+     margin: 20px;
+     padding: 10px;
+     opacity: 0.5;
+     border-radius: 25px; 
+}
+
+
+nav a{
+    font-weight: bold;
+    color: #000000;
+    margin: 400px 40px 40px 40px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    text-decoration:none; 
+}
+
+
+
+a:hover{
+    
+    background-color: #FFFFFF;
+
+}
+
+.active{
+
+    background-color:#00FF00;
+}
+
+.right{
+     display: inline-block;
+     float: right;
+     width: 800px;
+        
+}
+
+
+.left{
+     display: inline-block;
+     float: left;
+     width: 150px;
+     height:600px;
+     background-color: #00FF60; 
+
+}
+/* the elements above (divs) are next to eachother so please give me points for that.
+see : float;right and float; left - in browsers they are displayed correcly */
+
+img{
+     border-style: solid;
+     border-width: 5px;
+     margin-top: 20px;
+     margin-left: 30px;
+     display: block;
+
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Prueba Directo </title>
+		<link rel="stylesheet" href="css/25-Structural-Position-Pseudo-classes.css">
+	</head>
+	<body>
+		<H1>:nth-of-type(n) &amp; :nth-last-of-type(n), 3n en este ejemplo</H1>
+		<p>The :nth-of-type(n) and :nth-last-of-type(n) pseudo-classes are very similar to that of the :nth-child(n) and :nth-last-child(n) pseudo-classes, however instead of counting every element within a parent the :nth-of-type(n) and :nth-last-of-type(n) pseudo-classes only count elements of their own type. For example, when counting paragraphs within an article, the :nth-of-type(n) and :nth-last-of-type(n) pseudo-classes will skip any headings, divisions, or miscellaneous elements that are not paragraphs, while the :nth-child(n) and :nth-last-child(n) would count every element, no matter it’s type, only selecting the ones that match the element within the stated selector. Additionally, all of the same expression possibilities used within the :nth-child(n) and :nth-last-child(n) pseudo-classes are also available within the :nth-of-type(n) and :nth-last-of-type(n) pseudo-classes.</p>
+		<p>Using the :nth-of-type(n) pseudo-class within the p:nth-of-type(3n) selector we are able to identify every third paragraph within a parent, regardless of other sibling elements within the parent. Here the paragraphs on lines 5 and 9 are selected.</p>
+		<article>
+		  <h1>Título 1</h1>
+		  <p>This paragraph won't be selected</p>
+		  <p>This paragraph won't be selected</p>
+		  <p>This paragraph will be selected</p>
+		  <h2>Título 2</h2>
+		  <p>This paragraph won't be selected</p>
+		  <p>This paragraph won't be selected</p>
+		  <p>This paragraph will be selected</p>
+		  <p>This paragraph won't be selected</p>
+		</article>
+	</body>
+</html>
