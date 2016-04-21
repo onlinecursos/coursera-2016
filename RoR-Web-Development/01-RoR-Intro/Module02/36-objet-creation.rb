@@ -13,3 +13,4 @@ person1 = Person.new("Joe", 14)
 p person1.instance_variables # [:@name, :@age]
 puts person1.get_info # Name: Joe, age: 14
 p person1.instance_variables # [_@name, :@age, :@addiotional_info]
+puts person1.instance_variables # [_@name, :@age, :@addiotional_info]

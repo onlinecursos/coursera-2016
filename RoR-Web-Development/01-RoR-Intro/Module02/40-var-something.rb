@@ -18,3 +18,6 @@ person1.age = 10 # Change to 10
 puts person1.age # => 10
 person1.age = 200 # Try to change to 200
 puts person1.age # => 10 still
+puts
+# person2 =Person.new( "Ali" ) Error enel número de argumentos
+# puts person2

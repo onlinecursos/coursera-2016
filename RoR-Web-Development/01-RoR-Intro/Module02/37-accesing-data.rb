@@ -15,4 +15,6 @@ person1 = Person.new("Joe", 14)
 puts person1.name # Joe
 person1.name = "Mike"
 puts person1.name # Mike
+puts
+p person1.name
 # puts person1.agee # undefined methos 'age' for #>Person:

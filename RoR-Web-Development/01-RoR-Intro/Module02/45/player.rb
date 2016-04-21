@@ -6,7 +6,7 @@ class Player
 	def initialize (name, age, skill_level)
 		@name = name
 		@age = age
-		@skill_level ) skill_level
+		@skill_level = skill_level
 	end
 
 	def to_s

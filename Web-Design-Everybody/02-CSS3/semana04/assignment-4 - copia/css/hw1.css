@@ -1,0 +1,136 @@
+/* 
+My first attempt "Styling A Table"
+Watch this on: http://ramiro.com.mx/cuceaphp/index.html
+Tested on a PC with Windows 10 and:
+Firefox 45.0.1
+Google Chrome 49.0.2623.110 m
+And Lubuntu 14.04 with:
+Firefox 45.0
+Chomium 49.0.2623.108*/
+
+table {
+	font-size: 105%;
+	font-family: Verdana, Arial;
+	font-weight: bold;
+	line-height: 150%;
+	width: 80%;
+	margin: auto;
+	border-radius: 25px 0 0 0 ;
+}
+
+th {
+	background: linear-gradient(#999933, #666633); /* Standard syntax */
+	background: -webkit-linear-gradient(#999933, #666633); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#999933, #666633); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#999933, #666633); /* For Firefox 3.6 to 15 */
+	text-align: center;
+	color: #FFFFFF;
+	padding: 1%;
+	border-bottom-style: solid;
+	border-bottom-color: #808000;
+	border-bottom-width: thick;
+}
+
+th:first-child {
+	border-radius: 5px 0 0 0 ;	
+}
+
+th:last-child {
+	border-radius: 0 5px 0 0 ;	
+}
+
+tr {
+	background-color: #CCFF99;
+	opacity: 0.8;
+}
+
+tr>th, tr>td {
+	text-align: left;
+}
+
+th ~ th, td ~ td {
+	text-align: center;
+}
+
+tr:hover {
+	opacity: 1;
+}
+
+td {
+	padding: 1%;
+	color: #808080;
+	background-color: #CCFF99;
+	text-shadow: 1px 1px #C0C0C0;
+	border-radius: 2px;
+}
+body {
+	padding: 1% 1% 0% 1%;
+	margin: 1% 1% 0% 1%;
+}
+
+header {
+	background-color: #00FFFF;
+	background: -moz-linear-gradient(top, #00FFFF 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#00FFFF 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#00FFFF 0%, #00b7ea 100%);
+	background: linear-gradient(#00FFFF 0%, #00b7ea 100%);
+	background-image: url(../images/flywheel.jpg);
+	padding: 1%;
+}
+
+nav a {
+	display: inline-block;
+	margin: 1% 3%;
+	border-radius: 5%;
+	text-decoration: none;
+	padding: 1% 5% 1% 5%;
+	background: #FFFFFF;
+	opacity: 0.5;
+	font-weight: normal;
+	color: #000000;
+}
+
+.active {
+	color: #000000;
+	background: #FFFFFF;
+	opacity: 1;
+}
+
+section {
+	float: right;
+	width: 78%;
+	padding: 1%;
+}
+
+.left {
+	display: inline-block;
+	margin: 0 auto;
+	background-color: #808000;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 1%;
+	width: 18%;
+}
+
+img{
+	border: 1px solid blue;
+	width: 90%;
+	margin: 8% 4%;
+}
+
+h1{
+	color: #FFFFFF;
+	font-family: Verdana, Helvetica, Arial;
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 110%
+}
+
+h2 {
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 140%
+}
+
+p {
+	font-size: 120%
+}
